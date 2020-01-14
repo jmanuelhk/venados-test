@@ -12,7 +12,7 @@ export default class Home extends Component {
     return (
       <Navbar bg="dark" expand="lg" variant="dark" fixed="top">
         <Container>
-          <Navbar.Brand className="d-lg-flex align-items-center" componentClass={Link} href="/" to="/">
+          <Navbar.Brand className="d-flex align-items-center" componentClass={Link} href="/" to="/">
             <img
               alt="logo-venados-f-c"
               src={logo}
@@ -20,13 +20,13 @@ export default class Home extends Component {
               height="40"
               className="mr-2"
             />{' '}
-            <h5 className="d-lg-flex aling-items-center aling-self-center justify-content-center">VENADOS F.C.</h5>
+            <h5 className="d-flex aling-items-center aling-self-center justify-content-center">VENADOS F.C.</h5>
         </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse className="justify-content-end" >
             <Nav>
               <Nav.Link componentClass={Link} href="/" to="/"><FontAwesomeIcon className="pr-1" icon={faHome} />Inicio</Nav.Link>
-              <Nav.Link componentClass={Link} href="/" to="/"><FontAwesomeIcon className="pr-1" icon={faChartBar} />Estadísticas</Nav.Link>
+              <Nav.Link componentClass={Link} href="/statics" to="/statics"><FontAwesomeIcon className="pr-1" icon={faChartBar} />Estadísticas</Nav.Link>
               <Nav.Link componentClass={Link} href="/" to="/"><FontAwesomeIcon className="pr-1" icon={faUsers} />Jugadores</Nav.Link>
             </Nav>
           </Navbar.Collapse>

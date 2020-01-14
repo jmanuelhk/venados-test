@@ -36,6 +36,10 @@
   color: #fff;
 }
 
+.section-bg {
+  background: #ECF1EC;
+}
+
 #pricing .card .btn:hover {
   background: var(--primary-hover) !important;
 }

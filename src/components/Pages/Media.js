@@ -10,7 +10,7 @@ import logo from '../../images/logo.svg';
 export default class Header extends Component {
   render() {
     return (
-      <Media className="games pt-4 mt-5 pb-5 mb-5">
+      <Media className="games pt-4 mt-5 pb-5 ">
         <Container >
           <div>
             <Row>
