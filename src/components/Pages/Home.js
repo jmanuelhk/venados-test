@@ -8,7 +8,7 @@ import Media from './Media'
 export default class Home extends Component {
 	render() {
 		return (
-			<div>
+			<div className="section-bg pt-5">
 				<Container>
 					<Row className="show-Container text-center" id="pricing">
 						<Col xs={12} sm={6} md={6} lg={6} className="person-wrapper">

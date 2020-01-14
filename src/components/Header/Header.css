@@ -7,10 +7,11 @@
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  height: 20em;
+  height: 25em;
 }
 .jumbotron {
     border-radius: 0 !important;
+    margin-bottom: 0rem !important;
 }
 .cstm-cont {
   padding-right: 0px !important;
