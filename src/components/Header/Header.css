@@ -1,0 +1,18 @@
+.jumbo{
+  /* background-color: aqua !important; */
+  text-align: center;
+  color: white;
+  background-image: url("../../images/VenadosFC_imagenweb-02.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  height: 20em;
+}
+.jumbotron {
+    border-radius: 0 !important;
+}
+.cstm-cont {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}

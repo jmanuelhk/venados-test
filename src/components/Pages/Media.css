@@ -1,0 +1,14 @@
+.games {
+  text-align: center;
+  color: white;
+  background-image: url("../../images/fondo-pasto.jpg");
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  /* height: 20em; */
+}
+.col-subtitle{
+  background-color: #808080;
+  text-align: left;
+}
